@@ -1,0 +1,42 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background:#122;
+    color:white;
+    text-align:center;
+}
+
+header{
+    padding:50px;
+    background:#000000;
+}
+
+header h1{
+    color:orange;
+}
+
+.galeria{
+    padding:40px;
+}
+
+.galeria img{
+    width:250px;
+    margin:10px;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+.galeria img:hover{
+    transform:scale(1.05);
+}
+
+.whatsapp{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#25D366;
+    color:white;
+    padding:15px 20px;
+    border-radius:50px;
+    text-decoration:none;
+}
